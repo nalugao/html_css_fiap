@@ -1,0 +1,42 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    width: 1000px;
+    /* border: 1px solid black; */
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+thead tr {
+    border-bottom: 2px solid #336699
+}
+
+caption{
+    font-size: 30px;
+    color: #336699;
+    font-weight: 900;
+}
+
+tbody tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+tbody tr:hover {
+    background-color: #f9f9f9;
+    color: #336699;
+    font-weight: 600;
+}
+
+td, th {
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+tfoot tr {
+    background-color: #f9f9f9;
+}
+
